@@ -1,7 +1,7 @@
 /************************************
  *                v.1               *
  *      API ZA IZHOD FireFox-a      *
- *   Izdelava MISIT - Aljaž Krmelj  *
+ *           Izdelava A.K           *
  ***********************************/
 using System.Diagnostics;
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +15,7 @@ static string UbijProces()
 {
     //ubijanje procesa firefox-a
     Process.Start("taskkill", "/F /IM FireFox.exe");
-    return "proces konèan";
+    return "proces konÃ¨an";
 }
 app.MapGet("/exit", () =>
   UbijProces()
