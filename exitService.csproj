@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>izhodApp.ico</ApplicationIcon>
+    <AssemblyName>IzhodIzAplikacije</AssemblyName>
+    <Title>Izhod iz aplikacije</Title>
+    <Authors>Misit - Mitja Hlede s.p.</Authors>
+    <Copyright>Misit - Mitja Hlede s.p.</Copyright>
+    <PackageProjectUrl>app.peloz.si</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="izhodApp.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.WindowsServices" Version="7.0.15" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
