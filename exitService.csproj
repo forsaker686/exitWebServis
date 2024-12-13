@@ -7,9 +7,9 @@
     <ApplicationIcon>izhodApp.ico</ApplicationIcon>
     <AssemblyName>IzhodIzAplikacije</AssemblyName>
     <Title>Izhod iz aplikacije</Title>
-    <Authors>Misit - Mitja Hlede s.p.</Authors>
-    <Copyright>Misit - Mitja Hlede s.p.</Copyright>
-    <PackageProjectUrl>app.peloz.si</PackageProjectUrl>
+    <Authors>A.K.</Authors>
+    <Copyright>A.K.</Copyright>
+    <PackageProjectUrl>exit.tvojadomena.si</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
